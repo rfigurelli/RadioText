@@ -102,7 +102,7 @@ The Broadcast Layer abstracts the transmission medium, offering flexible deploym
 - **Mobility & Roaming**: Nodes on vehicles or drones dynamically join and leave, with automatic resynchronization of missed segments when reconnected.
 - **Resilience Mechanisms**: Forward error correction (FEC) and redundant paths mitigate packet loss; heartbeat channels monitor node health and network integrity.
 
-$1
+
 ### 6.4  Optional Security & Integrity Modules
 To ensure content authenticity, immutability, and privacy, RadioText can incorporate optional security layers:
 
@@ -113,7 +113,7 @@ To ensure content authenticity, immutability, and privacy, RadioText can incorpo
 
 These modules are optional and can be layered onto the core architecture to meet specific use-case requirements—such as governmental communications, corporate deployments, or privacy-sensitive applications.
 
-$2
+
 
 ## 7  Example Use Cases
 
