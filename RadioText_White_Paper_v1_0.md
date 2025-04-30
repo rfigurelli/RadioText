@@ -190,20 +190,34 @@ Below are illustrative scenarios demonstrating how RadioText could be applied ac
 
 ## 10  License
 
-MIT License  
+Creative Commons Attribution 4.0 International (CC BY 4.0)
 
-Copyright (c) 2025 Rogério Figurelli  
+Copyright © 2025 Rogério Figurelli
 
-This repository introduces the conceptual framework presented in this white paper, originally disclosed as:
+This repository contains original written and graphical materials (the “Work”),
+including—but not limited to—white papers, articles, diagrams, and supporting files
+that disclose conceptual frameworks and reference architectures.
 
-"RadioText: What if a system for Resilient Text Broadcasting?"  
-White Paper v1.0, published on April 29, 2025.
+You are free to:
 
-This work is made publicly available under the MIT License, granting rights to use, adapt, reference, and build upon the ideas, frameworks, and architectural models presented herein, provided that proper attribution is given to the original author.
+• Share — copy and redistribute the Work in any medium or format  
+• Adapt — remix, transform, and build upon the Work for any purpose, even commercially  
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this documentation and associated materials (the "Work"), to deal in the Work without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Work, and to permit persons to whom the Work is furnished to do so, subject to the following conditions:
+Under the following terms:
 
-- The above copyright notice, this permission notice, and the attribution requirement must be included in all copies or substantial portions of the Work.
+1. Attribution — Cite “Rogério Figurelli”, link to this license, and state if
+   changes were made.  
+   Preferred citation: Figurelli, R. “<Title>”, v <version>, <year>, URL/DOI.
 
-THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE WORK OR THE USE OR OTHER DEALINGS IN THE WORK.
+2. No additional restrictions — You may not apply legal terms or technological
+   measures that legally restrict others from doing anything the license permits.
 
+The full legal text of CC BY 4.0 is available at:  
+<https://creativecommons.org/licenses/by/4.0/legalcode>
+
+THE WORK IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHOR OR COPYRIGHT
+HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+WORK OR THE USE OR OTHER DEALINGS IN THE WORK.
