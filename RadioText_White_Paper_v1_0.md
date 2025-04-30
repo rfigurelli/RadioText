@@ -9,7 +9,7 @@
 
 ## Executive Summary
 
-Drawing inspiration from the golden age of broadcast—when a single transmitter could reach millions with music, drama, and news—RadioText redefines that model for a world constrained by bandwidth and power. Rather than resurrecting purely audio streams, it proposes a versatile framework where **expressive, adaptive text**—shaped by large language models and encoded by default via the Model Context Protocol (MCP) [13], while remaining extensible to other protocols—flows unbounded across any conceivable medium.
+Drawing inspiration from the golden age of broadcast—when a single transmitter could reach millions with music, drama, and news—RadioText redefines that model for a world constrained by bandwidth and power. Rather than resurrecting purely audio streams, it proposes a versatile framework where **expressive, adaptive text**—shaped by large language models and encoded by default via the eXtended Content Protocol (XCP) [14], while remaining extensible to other protocols such as MCP [13]—flows unbounded across any conceivable medium.
 
 Imagine brief educational lessons, community announcements, or safety alerts generated autonomously and payload-minimized into UTF-8 text. These messages traverse radio waves, infrared beams, power-line signals, mechanical vibrations, or digital networks—analog and digital alike—adapting to each channel’s capabilities and constraints. On the receiving end, minimal endpoints—from smartwatches and LED tickers to compact audio modules and IoT sensors—locally enrich these text streams into audio narration, images, or video, blending simplicity with rich-media possibilities.
 
@@ -105,7 +105,7 @@ The Broadcast Layer abstracts the transmission medium, offering flexible deploym
 
 ### 6.4  Intelligent Content Generation and Prompt Evolution
 
-RadioText adopts the Model Context Protocol (MCP) as its default mechanism for integrating large language models into broadcast streams, while remaining agnostic to alternative protocols or custom schemas. MCP enables prompt-driven text generation and contextual adaptation:
+RadioText adopts the eXtended Content Protocol (XCP) [18] as its default mechanism—enabling universal content framing and seamless gatewaying to other protocols such as MCP [13]—while remaining agnostic to custom schemas or transport models. MCP enables prompt-driven text generation and contextual adaptation:
 
 - **LLM-Powered Generators**: Content modules leverage any compliant LLM to produce and adapt text streams—summaries, narratives, localized alerts—on the fly, ensuring freshness and context awareness.
 - **MCP as Default**: By embedding MCP templates, parameters, and revision history, MCP facilitates client-side re-generation or refinement of text segments [13].
@@ -148,7 +148,7 @@ Below are illustrative scenarios demonstrating how RadioText could be applied ac
 - **AI-Driven Personalization**: Integrate user-profile–based filtering so clients automatically subscribe to relevant channels—e.g., language learners receive grammar tips while farmers get crop advisories—optimizing content relevance and reducing clutter.
 - **Cross-Media Binding**: Develop companion caches that synchronize on-device rich-media assets (audio clips, images, video snippets) with text broadcasts, enabling seamless multimedia experiences even offline.
 - **Standards Development**: Collaborate with IETF or IEEE working groups to formalize packet formats, channel-tagging schemas, and scheduling protocols for interoperability across vendors and communities.
-- **Ecosystem Growth**: Foster a plugin architecture for new transport drivers, rendering engines, and analytics dashboards, encouraging third-party contributions and rapid feature expansion.
+- **Ecosystem Growth**: Foster a plugin architecture for new transport drivers, rendering engines, and analytics dashboards, encouraging third-party contributions and rapid feature expansion—potentially integrating with collaborative prompt frameworks such as Collective-Prompts [20].
 - **Satellite Relay Integration**: Design and test low-earth-orbit (LEO) satellite modules that rebroadcast text programs globally, with adaptive link budgets for dynamic coverage and latency trade-offs.
 - **Automotive & Micromobility Modules**: Create SDKs for vehicle infotainment systems, e-scooter docks, and bike-sharing stations to subscribe to traffic updates, local event listings, or safety alerts while on the move.
 - **Aviation Broadcast Channels**: Prototype aircraft-side receivers that display real-time flight status, gate information, and destination guides on passenger devices without onboard Wi-Fi.
@@ -159,12 +159,13 @@ Below are illustrative scenarios demonstrating how RadioText could be applied ac
 - **Educational Curriculum Modules**: Partner with educational institutions to develop structured lesson plans—quizzes, readings, assignments—that broadcast at set intervals, supporting self-paced and remote learning.
 - **Environmental Monitoring Alerts**: Integrate sensor network outputs (e.g., air quality, flood gauges, seismic activity) into automatic alert streams, notifying nearby devices of threshold crossings in real time.
 - **Smart City Data Feeds**: Broadcast transit schedules, parking availability, and civic announcements across municipal mesh networks, reducing reliance on cellular and public Wi-Fi.
+- **Curiosity-Driven AGI Integration**: Experiment with integrating curiosity-driven AGI agents for adaptive content generation, enabling networks that self-optimize based on environmental feedback [19].
 
 ---
 
 ## 9  References
 
-1. Abramson N. (1970). *Experiments in Long-Range Communication by Chance*.
+1. Abramson N. (1970). *Experiments in Long-Range Communication by Chance.*
 2. Osterloh U. & Beveridge A. (2018). *Decentralized Publish–Subscribe in Wireless Sensor Networks.*
 3. Singh P. & Rathore N. (2024). *Structured Text Broadcasting over LoRa Networks.*
 4. ITU (2022). *The Cost and Scalability of Text-Only Broadcasting.*
@@ -177,8 +178,32 @@ Below are illustrative scenarios demonstrating how RadioText could be applied ac
 11. Chen L. et al. (2024). *Local Rich-Media Rendering of Structured Text.*
 12. Kim S. & Turner A. (2025). *Delta Compression and Tagging for Text Broadcasting.*
 13. Smith J. et al. (2025). *Model Context Protocol (MCP): A Framework for Contextual Prompting in Distributed Systems.*
-14. Nakamoto S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System.*
-15. Popov S. (2016). *The Tangle.* (IOTA Foundation).
-16. Bross B. et al. (2017). *Brotli: A General Purpose Data Compressor.* Google Research.
-17. IEEE (2011). *IEEE Standard for Broadband over Power Line Networks: Medium Access Control and Physical Layer Specifications (IEEE 1901).*
+14. Figurelli R. (2025). *eXtended Content Protocol (XCP): A Universal Framework for Distributed Text Broadcasting.* (GitHub).
+15. Nakamoto S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System.*
+16. Popov S. (2016). *The Tangle.* (IOTA Foundation).
+17. Bross B. et al. (2017). *Brotli: A General Purpose Data Compressor.* Google Research.
+18. IEEE (2011). *IEEE Standard for Broadband over Power Line Networks: Medium Access Control and Physical Layer Specifications (IEEE 1901).* 
+19. Figurelli R. (2025). *Curiosity-Driven AGI: Autonomous Content Adaptation in Distributed Networks.* (GitHub).
+20. Figurelli R. (2025). *Collective-Prompts: Real-Time Collaborative Prompt Intelligence Framework.* (GitHub).
+
+---
+
+## 10  License
+
+MIT License  
+
+Copyright (c) 2025 Rogério Figurelli  
+
+This repository introduces the conceptual framework presented in this white paper, originally disclosed as:
+
+"RadioText: What if a system for Resilient Text Broadcasting?"  
+White Paper v1.0, published on April 29, 2025.
+
+This work is made publicly available under the MIT License, granting rights to use, adapt, reference, and build upon the ideas, frameworks, and architectural models presented herein, provided that proper attribution is given to the original author.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this documentation and associated materials (the "Work"), to deal in the Work without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Work, and to permit persons to whom the Work is furnished to do so, subject to the following conditions:
+
+- The above copyright notice, this permission notice, and the attribution requirement must be included in all copies or substantial portions of the Work.
+
+THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE WORK OR THE USE OR OTHER DEALINGS IN THE WORK.
 
