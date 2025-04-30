@@ -170,8 +170,20 @@ Below are illustrative scenarios demonstrating how RadioText could be applied ac
 
 ## 10  License
 
-This white paper is released under the [MIT License](https://opensource.org/licenses/MIT). Permission is hereby granted, free of charge, to any person obtaining a copy of this document and associated materials to deal in the document without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the document, and to permit persons to whom the document is furnished to do so, subject to the following conditions:
+MIT License  
 
-- The above copyright notice and this permission notice shall be included in all copies or substantial portions of the document.
-- The document is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement.
+Copyright (c) 2025 Rogério Figurelli  
+
+This repository introduces the conceptual framework presented in this white paper, originally disclosed as:
+
+"RadioText: What if a system for Resilient Text Broadcasting?"  
+White Paper v1.0, published on April 29, 2025.
+
+This work is made publicly available under the MIT License, granting rights to use, adapt, reference, and build upon the ideas, frameworks, and architectural models presented herein, provided that proper attribution is given to the original author.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this documentation and associated materials (the "Work"), to deal in the Work without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Work, and to permit persons to whom the Work is furnished to do so, subject to the following conditions:
+
+- The above copyright notice, this permission notice, and the attribution requirement must be included in all copies or substantial portions of the Work.
+
+THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE WORK OR THE USE OR OTHER DEALINGS IN THE WORK.
 
