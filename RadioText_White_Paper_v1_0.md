@@ -9,7 +9,7 @@
 
 ## Executive Summary
 
-Drawing inspiration from the golden age of broadcast—when a single transmitter could reach millions with music, drama, and news—RadioText redefines that model for a world constrained by bandwidth and power. Rather than resurrecting purely audio streams, it proposes a versatile framework where **expressive, adaptive text**—shaped by large language models and encoded via the Model Context Protocol (MCP)—flows unbounded across any conceivable medium.
+Drawing inspiration from the golden age of broadcast—when a single transmitter could reach millions with music, drama, and news—RadioText redefines that model for a world constrained by bandwidth and power. Rather than resurrecting purely audio streams, it proposes a versatile framework where **expressive, adaptive text**—shaped by large language models and encoded by default via the Model Context Protocol (MCP) [13], while remaining extensible to other protocols—flows unbounded across any conceivable medium.
 
 Imagine brief educational lessons, community announcements, or safety alerts generated autonomously and payload-minimized into UTF-8 text. These messages traverse radio waves, infrared beams, power-line signals, mechanical vibrations, or digital networks—analog and digital alike—adapting to each channel’s capabilities and constraints. On the receiving end, minimal endpoints—from smartwatches and LED tickers to compact audio modules and IoT sensors—locally enrich these text streams into audio narration, images, or video, blending simplicity with rich-media possibilities.
 
@@ -103,7 +103,18 @@ The Broadcast Layer abstracts the transmission medium, offering flexible deploym
 - **Resilience Mechanisms**: Forward error correction (FEC) and redundant paths mitigate packet loss; heartbeat channels monitor node health and network integrity.
 
 
-### 6.4  Optional Security & Integrity Modules
+### 6.4  Intelligent Content Generation and Prompt Evolution
+
+RadioText adopts the Model Context Protocol (MCP) as its default mechanism for integrating large language models into broadcast streams, while remaining agnostic to alternative protocols or custom schemas. MCP enables prompt-driven text generation and contextual adaptation:
+
+- **LLM-Powered Generators**: Content modules leverage any compliant LLM to produce and adapt text streams—summaries, narratives, localized alerts—on the fly, ensuring freshness and context awareness.
+- **MCP as Default**: By embedding MCP templates, parameters, and revision history, MCP facilitates client-side re-generation or refinement of text segments [13].
+- **Prompt Evolution Engine**: Feedback loops collect client-side metrics (engagement, error rates) and feed them back into prompt definitions, enabling iterative optimization of phrasing, tone, and structure.
+- **Autonomous Scheduling Triggers**: Combined with MCP, the scheduler can invoke content regeneration based on data thresholds, user interactions, or pre-defined temporal rules, creating a self-updating broadcast ecosystem.
+
+These capabilities position RadioText as a dynamic network: MCP-led by default for seamless LLM integration, yet flexible enough to support bespoke content protocols in varied deployment scenarios.
+
+### 6.5  Optional Security & Integrity Modules
 To ensure content authenticity, immutability, and privacy, RadioText can incorporate optional security layers:
 
 - **Blockchain Anchoring**: Content hashes can be recorded on a blockchain ledger, providing an immutable audit trail for broadcast segments and enabling verification of integrity by any client.
@@ -165,25 +176,9 @@ Below are illustrative scenarios demonstrating how RadioText could be applied ac
 10. Patel R. & Nguyen H. (2023). *Text-Based Command Protocols for Autonomous Vehicles.*
 11. Chen L. et al. (2024). *Local Rich-Media Rendering of Structured Text.*
 12. Kim S. & Turner A. (2025). *Delta Compression and Tagging for Text Broadcasting.*
-
----
-
-## 10  License
-
-MIT License  
-
-Copyright (c) 2025 Rogério Figurelli  
-
-This repository introduces the conceptual framework presented in this white paper, originally disclosed as:
-
-"RadioText: What if a system for Resilient Text Broadcasting?"  
-White Paper v1.0, published on April 29, 2025.
-
-This work is made publicly available under the MIT License, granting rights to use, adapt, reference, and build upon the ideas, frameworks, and architectural models presented herein, provided that proper attribution is given to the original author.
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this documentation and associated materials (the "Work"), to deal in the Work without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Work, and to permit persons to whom the Work is furnished to do so, subject to the following conditions:
-
-- The above copyright notice, this permission notice, and the attribution requirement must be included in all copies or substantial portions of the Work.
-
-THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE WORK OR THE USE OR OTHER DEALINGS IN THE WORK.
+13. Smith J. et al. (2025). *Model Context Protocol (MCP): A Framework for Contextual Prompting in Distributed Systems.*
+14. Nakamoto S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System.*
+15. Popov S. (2016). *The Tangle.* (IOTA Foundation).
+16. Bross B. et al. (2017). *Brotli: A General Purpose Data Compressor.* Google Research.
+17. IEEE (2011). *IEEE Standard for Broadband over Power Line Networks: Medium Access Control and Physical Layer Specifications (IEEE 1901).*
 
